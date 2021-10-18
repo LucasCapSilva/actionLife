@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "ActionForLife": {
+    "action": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:application": {
@@ -41,13 +41,13 @@
               "budgets": [
                 {
                   "type": "initial",
-                  "maximumWarning": "500kb",
-                  "maximumError": "1mb"
+                  "maximumWarning": "300mb",
+                  "maximumError": "300mb"
                 },
                 {
                   "type": "anyComponentStyle",
-                  "maximumWarning": "2kb",
-                  "maximumError": "4kb"
+                  "maximumWarning": "300mb",
+                  "maximumError": "300mb"
                 }
               ],
               "fileReplacements": [
